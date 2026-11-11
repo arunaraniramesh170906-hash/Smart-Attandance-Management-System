@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "id": "u_admin",
+      "name": "Department Admin",
+      "email": "admin@campus.edu",
+      "role": "department",
+      "department": "Computer Science",
+      "studentId": null,
+      "staffId": "CS-HOD-01",
+      "password": "$2a$10$JQ1LVMRyp9lruYd7ei5TUOqNZYAywnezR8xQsc1lIaF4RXyTh373m"
+    },
+    {
+      "id": "u_staff",
+      "name": "Priya Staff",
+      "email": "staff@campus.edu",
+      "role": "staff",
+      "department": "Computer Science",
+      "studentId": null,
+      "staffId": "CS-FAC-12",
+      "password": "$2a$10$ISU7dWaXbHp.HP8.Kp2uWO.Ozj6KozOl6fjQhodl3rSYrU88rKpsG"
+    },
+    {
+      "id": "u_student",
+      "name": "Aruna Student",
+      "email": "student@campus.edu",
+      "role": "student",
+      "department": "Computer Science",
+      "studentId": "CSE2024001",
+      "staffId": null,
+      "password": "$2a$10$6ug5rhid3nKrrsFRijEemOPeDd9ZmnkQj6UmDXaDho8VJVo0H2onW"
+    },
+    {
+      "id": "u_student2",
+      "name": "Abi Student",
+      "email": "abi@campus.edu",
+      "role": "student",
+      "department": "Computer Science",
+      "studentId": "CSE2024002",
+      "staffId": null,
+      "password": "$2a$10$v8R.YOwjgx9hULBQGxOs6eR/qmf/Ynq8wMoPhKgp7ffDTRDwR1UUC"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub_1",
+      "name": "Data Structures",
+      "code": "CS301",
+      "department": "Computer Science",
+      "semester": 5,
+      "staffId": "u_staff"
+    },
+    {
+      "id": "sub_2",
+      "name": "Computer Networks",
+      "code": "CS302",
+      "department": "Computer Science",
+      "semester": 5,
+      "staffId": "u_staff"
+    },
+    {
+      "id": "sub_3",
+      "name": "Database Systems",
+      "code": "CS303",
+      "department": "Computer Science",
+      "semester": 5,
+      "staffId": "u_staff"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att_mvxhhzcl_37mfa",
+      "studentId": "u_student",
+      "subjectId": "sub_1",
+      "date": "2026-11-01",
+      "period": 1,
+      "status": "Present",
+      "markedBy": "u_staff",
+      "updatedAt": "2026-11-01T07:07:04.698Z"
+    },
+    {
+      "id": "att_mvxhhzcl_c8mbg",
+      "studentId": "u_student2",
+      "subjectId": "sub_1",
+      "date": "2026-11-01",
+      "period": 1,
+      "status": "Absent",
+      "markedBy": "u_staff",
+      "updatedAt": "2026-11-01T07:07:04.698Z"
+    },
+    {
+      "id": "att_mvxj1pmy_m0ldd",
+      "studentId": "u_student",
+      "subjectId": "sub_1",
+      "date": "2026-10-02",
+      "period": 1,
+      "status": "Present",
+      "markedBy": "u_staff",
+      "updatedAt": "2026-11-01T07:47:25.684Z"
+    },
+    {
+      "id": "att_mvxj1pmy_srqbl",
+      "studentId": "u_student2",
+      "subjectId": "sub_1",
+      "date": "2026-10-02",
+      "period": 1,
+      "status": "Absent",
+      "markedBy": "u_staff",
+      "updatedAt": "2026-11-01T07:47:25.684Z"
+    },
+    {
+      "id": "att_mvxj24bz_mqxyg",
+      "studentId": "u_student",
+      "subjectId": "sub_1",
+      "date": "2026-10-03",
+      "period": 1,
+      "status": "Present",
+      "markedBy": "u_staff",
+      "updatedAt": "2026-11-01T07:47:37.967Z"
+    },
+    {
+      "id": "att_mvxj24bz_ehbm8",
+      "studentId": "u_student2",
+      "subjectId": "sub_1",
+      "date": "2026-10-03",
+      "period": 1,
+      "status": "Present",
+      "markedBy": "u_staff",
+      "updatedAt": "2026-11-01T07:47:37.967Z"
+    }
+  ],
+  "marks": [],
+  "qrSessions": [
+    {
+      "id": "qr_mvyxe4a2_434ju",
+      "token": "b6e3cd132487c7bed907eef1b95b2d8b7cfb",
+      "subjectId": "sub_1",
+      "date": "2026-11-02",
+      "period": 1,
+      "department": "Computer Science",
+      "createdBy": "u_staff",
+      "createdAt": 1793603798570,
+      "expiresAt": 1793603888570
+    }
+  ],
+  "notices": [
+    {
+      "id": "n1",
+      "title": "Welcome to SmartAttend",
+      "body": "Use the demo accounts in the README to explore the system.",
+      "createdAt": "2026-11-01T06:55:49.635Z",
+      "author": "System"
+    }
+  ]
+}
